@@ -1,0 +1,28 @@
+<%-include('parts/head');%>
+
+<div class="container justify'content-center">
+  
+    <div class="row justify-content-center text-center">
+      <div class="col-md-6">
+              <h2>Estudios Realizados</h2>
+            <form class="form" action="/api/cvEstudy" method="post">
+
+              <div class="input-group mb-3">
+                <input type="text" placeholder="Estudios Primarios" name="studi1" class="form-control"></input>
+                </div>
+              <div class="input-group mb-3">
+                <input type="text" placeholder="Estudios Secundarios" name="studi2" class="form-control"></input>
+              </div>
+                <div class="input-group mb-3">
+                <input type="text" placeholder="Estudios Universitarios" name="studi3" class="form-control"></input>
+              </div>
+              <div class="input-group mb-3">
+                <button type="submit" class="form-control btn btn-success">Continue</button>
+              </div>
+              </form>
+      </div>
+  </div>
+</div>
+</main>
+
+<%-include('parts/footer');%>

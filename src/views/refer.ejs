@@ -1,0 +1,34 @@
+<%-include('parts/head');%>
+
+<div class="container justify'content-center">
+  
+    <div class="row justify-content-center text-center">
+      <div class="col-md-6">
+              <h2>Referencias Personales</h2>
+            <form class="form" action="/api/cvRefer" method="post">
+
+              <div class="input-group mb-3">
+                <input type="text" placeholder="Primera Referencia" name="refer1" class="form-control"></input>
+                </div>
+              <div class="input-group mb-3">
+                <input type="text" placeholder="Segunda Referencia" name="refer2" class="form-control"></input>
+              </div>
+                <div class="input-group mb-3">
+                <input type="text" placeholder="Tercera Referencia" name="refer3" class="form-control"></input>
+              </div>
+
+              <div class="input-group mb-3">
+                <input type="text" placeholder="Cuarta Referencia" name="refer4" class="form-control"></input>
+              </div>
+              <div class="input-group mb-3">
+                <button type="submit" class="form-control btn btn-success">Finish</button>
+              </div>
+              </form>
+              </div>
+       
+      </div>
+  </div>
+</div>
+</main>
+
+<%-include('parts/footer');%>

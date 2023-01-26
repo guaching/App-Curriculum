@@ -1,0 +1,9 @@
+
+.container{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,11,59,1) 0%, rgba(68,101,176,1) 25%, rgba(87,87,215,0.8463760504201681) 68%, rgba(0,212,255,1) 100%);      
+}
+
+body{
+  background-color: aqua;
+}
